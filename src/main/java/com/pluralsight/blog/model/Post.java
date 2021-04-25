@@ -18,7 +18,6 @@ public class Post {
     private String author;
     @Temporal(TemporalType.DATE)
     private Date date;
-    private Category category;
 
     public Post() {
         super();
